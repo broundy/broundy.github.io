@@ -7,15 +7,15 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Comprehensive Documentation"
 title_separator          : "-"
-name                     : "Brian Roundy"
-description              : "An amazing website."
+name                     : "Comprehensive Documentation"
+description              : "Projects, hobbies and thoughts..."
 url                      : "https://broundy.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "broundy/broundy.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-breadcrumbs              : false
+breadcrumbs              : true
 words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -48,8 +48,8 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification : "google8395945364711078.html"
-bing_site_verification   :
+google_site_verification : "8395945364711078"
+bing_site_verification   : "963438B153FA2DACCA80D20890F0F7BA"
 alexa_site_verification  :
 yandex_site_verification :
 
@@ -80,7 +80,7 @@ author:
   name             : "Brian Roundy"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an amazing person."
-  location         : "Somewhere"
+  location         : "Salt Lake City, Utah"
   email            : "brian.roundy@gmail.com"
   uri              : 
   bitbucket        :
@@ -97,10 +97,10 @@ author:
   linkedin         : "brian-roundy-8162447"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
-  steam            :
+  stackoverflow    : "3874103/brian-roundy" # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  steam            : 
   tumblr           :
-  twitter          :
+  twitter          : "brian_roundy"
   vine             :
   weibo            :
   xing             :
@@ -241,6 +241,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true

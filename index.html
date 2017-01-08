@@ -1,4 +1,38 @@
 ---
-layout: home
-author_profile: true
+title: "Comprehensive Documentation"
+layout: splash
+header:
+  overlay_color: "#000"
+  overlay_image: assets/images/splash_header.jpg
+  cta_label: "Source"
+  cta_url: "https://github.com/broundy/broundy.github.io"
+  caption: "[**@markusspiske**](https://unsplash.com/@markusspiske)"
+excerpt: "Projects, adventures and thoughts...stuff I want to remember."
+intro: 
+  - excerpt: 'The best performance improvement is the transition from the nonworking state to the working state. -J. Osterhout-'
+feature_row:
+  - image_path: assets/images/posts/2017-01-07-when-breathe-becomes-air/splash_lead.jpg
+    alt: "When Breath Becomes Air"
+    title: "When Breath Becomes Air"
+    excerpt: "My thoughts after reading *When Breath Becomes Air* by Paul Kalanithi"
+    url: "/when-breath-becomes-air/"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+  - image_path: assets/images/posts/2016-06-24-outdoor-kitchen-summary/splash_lead.jpg
+    alt: "Building an Outdoor Kitchen"
+    title: "Building an Outdoor Kitchen"
+    excerpt: "Summary of my experience building an outdoor kitchen"
+    url: "/outdoor-kitchen-summary"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+  - image_path: assets/images/posts/2014-06-12-rockwell-relay/splash_lead.jpg
+    title: "2014 Rockwell Relay"
+    excerpt: "Cycling in southern Utah in the 2014 Rockwell Relay."
+    url: "/2014-rockwell-relay/"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
 ---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
