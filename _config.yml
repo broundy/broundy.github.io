@@ -11,7 +11,7 @@ title                    : "Comprehensive Documentation"
 title_separator          : "-"
 name                     : "Comprehensive Documentation"
 description              : "Projects, hobbies and thoughts..."
-url                      : "https://broundy.github.io/"
+url                      : "http://www.comprehensivedocumentation.com/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "broundy/broundy.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -79,7 +79,7 @@ analytics:
 author:
   name             : "Brian Roundy"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "Engineer...terrible at documentation."
   location         : "Salt Lake City, Utah"
   email            : "brian.roundy@gmail.com"
   uri              : 
